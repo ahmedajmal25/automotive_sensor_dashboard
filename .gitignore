@@ -1,0 +1,10 @@
+# .gitignore
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+.env
+*.log
+.ipynb_checkpoints/
+.DS_Store
+static/
