@@ -62,6 +62,8 @@ def create_violinplot(df, column='engine_rpm', output_dir="static"):
     
     Returns:
         str: Base64-encoded image string for embedding in Dash.
+
+    This violinplot shows RPM distribution differences between healthy and faulty engines    
     """
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
